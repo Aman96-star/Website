@@ -134,3 +134,18 @@ body {
     left: 15%;
     padding-left: 5%;
 }
+
+@media only screen and (max-width: 768px) and (min-width: 368px) {
+  .container .container-1{
+    height: 30%;
+    width: 80%;
+    background: #756969;
+    position: absolute;
+    display: flex;
+    background: #000;
+    flex-direction: column;
+    left: 15%;
+    padding-left: 5%;
+}
+
+}
