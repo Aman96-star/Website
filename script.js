@@ -56,3 +56,33 @@ const jsuser ={
 // two method to access a object 
 // 1. console.log(jsuser["name"])
 // 2. console.log(jsuser.name)
+
+let dage  =prompt("enter the age : ")
+dage = Number.parseInt(dage); // prompt always take string value 
+
+const validation =(dage)=>{
+    return dage>=18?true:false 
+   
+} 
+if(dage <0){
+    console.log(alert("error please enter the valid age "));
+   
+}
+if(validation(dage)){
+    alert("yes, you can proceed")
+}
+else{
+    alert("no, you can't proceed")
+ 
+}
+
+let colorc = prompt("enter the color type")
+if (colorc ==="white" || colorc==="black"){
+    console.log("valid",colorc)
+
+}
+else{
+    console.log("valid",colorc)
+}
+document.body.style.background =colorc
+
